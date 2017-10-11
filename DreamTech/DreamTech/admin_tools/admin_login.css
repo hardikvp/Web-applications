@@ -1,0 +1,40 @@
+#login{
+	width:30%;
+	height:50%;
+	
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 13%;
+		font-size: 18px;
+		font-family:San-serif;
+}
+body{
+	background-image: url("images/backimage.png");
+	background-size:cover;
+
+}
+.input{
+	border-radius:2em; 
+	
+}
+td{
+	text-align:center;
+	padding:.5em;
+}
+table{
+	border-radius: 2em;
+	background: rgba(119,136,153, .7);
+	padding: 3em;
+}
+input{
+	padding:.5em;
+}
+#button{
+	background-color: white; 
+	font-size: 18px;
+	padding:.5em; 
+	border-radius: 1em;
+	width: 100px
+	
+	
+}

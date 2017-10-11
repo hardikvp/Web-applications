@@ -1,0 +1,133 @@
+#main{
+	height:83%;
+}
+table{
+	
+	
+	
+	text-align:center; 
+	border-radius:1.5em;
+	margin-left:2%;
+	padding:.8em;
+	width:100%
+}
+td{
+	border: 2px dotted gray;
+	border-radius:5em;
+	
+}
+input{
+	border-radius:5em;
+	width:100%;
+	padding:.8em;
+}
+#tb1{
+	width:45%;
+	float:left;
+	margin-left:3%;
+}
+#tb2{
+	width:45%;
+	float:left;
+	margin-left:3%;
+}
+#payments{
+	float:left;
+	position:relative;
+	
+	width: 100%;
+	
+	margin-right:10%;
+	
+	
+	
+}
+#tb3{
+	border: 2px dashed gray;
+	margin-top: 2em;
+	margin-bottom:2em;
+	width:45%;
+	margin-left:30.25%;
+	margin-right:30.25%;
+}
+#img{
+
+    height: 70%;
+    border: 2px dashed gray;
+    border-radius: 5em;
+    padding: 4em;
+	margin-top: 3em;
+	margin-bottom: 1em; 
+	
+
+}
+#paypaltd{
+	margin-top: 1.5em;
+}
+#tb3 td{
+	border:none;
+}
+#paylabel{
+	padding-top:.5em;
+}
+#cartfinal{
+	margin-left:5%;
+	width:90%;
+	margin-right:5%;
+}
+#cartfinal td{
+	padding:.5em;
+	font-size:18px;
+	
+}
+#payable{
+	font-size: 18px;
+	border: 2.5px solid red;
+	border-radius: 5em;
+	padding:.5em;
+}
+#payable1{
+	font-size: 18px;
+	border: 2.5px solid green;
+	border-radius: 5em;
+	padding:.5em;
+}
+#btnsub{
+  font-size:18px;
+  color: white;
+  background-color:#4CAF50;
+  border-radius:4em;
+  padding:.5em;
+  width:40%;
+}
+#cartview{
+	width:100%;
+	float:left;
+	position:relative;
+	margin-top:2em;
+	border-top:2px dashed gray;
+	padding-top:3em;
+	border-bottom:2px dashed gray;
+	padding-bottom:2em;
+}
+#com{
+	width:100%;
+	border-radius:5em; 
+padding:1em;
+}
+#comment{
+	float:left;
+	position: relative;
+width:80%;
+margin-left:10%;
+margin-right:10%;
+
+}
+#comments{
+	float: left;
+	position: relative;
+	width:100%;
+	border-top: 2px dashed gray; 
+margin-top: 2em;
+padding-top:3em;
+}

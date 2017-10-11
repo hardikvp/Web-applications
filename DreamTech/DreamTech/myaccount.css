@@ -1,0 +1,28 @@
+#welcomebar{
+	width: 78%;
+	
+	float:left;
+	background-color: #333; 
+	height:32px;
+	padding-top:.7em;
+}
+#h4{
+	color: white;
+	padding: 2em; 
+	font-size: 18px;
+	margin-top:1em;
+	
+}
+.wrapper #content{
+	padding-top:2em;
+}
+#products_box{
+	padding-top: 3em;
+}
+#accpage{
+	
+    width: 70%;
+    float: left;
+    position: relative;
+
+}

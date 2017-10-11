@@ -1,0 +1,22 @@
+#products_box{
+	
+width:100%;
+	text-align:center;
+
+
+position: relative;
+
+}
+#single_product{
+
+	float:left;
+	margin-left:20px;
+	padding:10px;
+
+	
+}
+#display{ 
+	padding: 4em;
+
+
+}

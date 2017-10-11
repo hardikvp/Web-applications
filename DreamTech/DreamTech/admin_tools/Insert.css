@@ -1,0 +1,21 @@
+body{
+	background-color: #4F628E;
+	
+}
+table{
+	border-radius: 2em;
+	border: 2px dotted black;
+	padding:1.5em;
+	width:60%;
+	margin-right: 20%;
+	margin-left:20%;
+	background-color:#7887AB;
+}
+.fi{
+	text-align: right;
+}
+ td{
+	border-radius:.8em;
+	border: 2px dotted black;
+	padding:.5em;
+}

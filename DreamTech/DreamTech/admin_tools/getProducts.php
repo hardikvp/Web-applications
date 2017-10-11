@@ -1,0 +1,49 @@
+<?php
+include ("db.php");
+function getProducts(){
+	global $connect;
+	
+	$get_product = "SELECT * FROM products";
+	$run_product= mysqli_query($connect,$get_product);
+	while($row_product= mysqli_fetch_array($run_product)){
+		$pro_id = $row_product['product_id'];
+		$pro_cat = $row_product['product_cat'];
+		$pro_brand = $row_product['product_brand'];
+		$pro_title = $row_product['product_title'];
+		$pro_price = $row_product['product_price'];
+		$pro_image = $row_product['product_image'];
+		
+		echo " 
+		<style>
+		a,a:visited{
+			text-decoration:none;
+			color:black;
+		}
+		button{
+			padding:.8em;
+			background-color:#4CAF50;
+			color:white;
+			border-radius:5em;
+			
+		}
+		#del{
+			padding:.8em;
+			background-color:#FF0000;
+			color:white;
+			border-radius:5em;
+		}
+		</style>
+		<div id='single_product'>
+				
+				<a href='admin_dashboard.php?pro_id=$pro_id'><img src='../images/product_images/$pro_image' width='120' height='120' />
+				<h3>$pro_title</h3></a>
+				<p>$<b> $pro_price</b></p>
+				<a href='admin_dashboard.php?pro_id=$pro_id'><button>View/Edit</button></a>
+				<a href='del_product.php?del_product=$pro_id'><button id='del'>Delete product</button></a>
+				</div> 
+				
+				";
+	}
+	
+}
+?>

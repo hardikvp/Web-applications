@@ -1,0 +1,23 @@
+#products_box{
+	padding-left:0em;
+}
+table{
+	border-radius: 2em;
+	border: 2px dotted black; 
+	margin-left:5%;
+	margin-right:5%;
+}
+td{
+	border-radius: .5em;
+	border: 2px dotted black; 
+	margin-left:1em;
+}
+.btn{
+	padding: .8em;
+	border-radius: 5em;
+	background-color:#4CAF50;
+}
+#display{
+	color:black;
+font-size:18px;
+}

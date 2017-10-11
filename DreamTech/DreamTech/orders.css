@@ -1,0 +1,15 @@
+table{
+	width: 100%; 
+	margin-left:5%; 
+	padding:1em; 
+	border:  2px dashed gray; 
+	border-radius:1em; 
+	
+}
+td{
+	padding:1em;
+	border: 2px dotted gray;
+	border-radius: 2em;
+	text-align: center;
+	
+}

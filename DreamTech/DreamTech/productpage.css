@@ -1,0 +1,21 @@
+#products_box{
+	
+width:100%;
+position: relative;
+
+}
+#single_product{
+	padding:10px;
+	
+}
+#main{
+	width:100%;
+}
+.wrapper{
+	width:78%;
+	float:right;
+}
+#content{
+	padding-left:0em;
+	
+}
