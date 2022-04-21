@@ -1,9 +1,9 @@
 <?php
 $server = 'localhost';
 $username   = 'root';
-$password   = 'pvh.3994';
+$password   = '';
 $database   = 'forum';
-$con = mysqli_connect('localhost', 'root', 'pvh.3994');
+$con = mysqli_connect('localhost', 'root', '');
  
 if(!mysqli_connect($server, $username,  $password))
 {
